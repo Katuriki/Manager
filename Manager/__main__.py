@@ -46,6 +46,9 @@ Group Management Bot with advanced features.
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
+
+ASUNA_IMG = "https://telegra.ph/file/33bda9569df713eb555ec.jpg"
+
 DONATE_STRING = """Heya, glad to hear you want to donate! I'm not accepting any donations right now, still, if needed, drop a thanks to @xditya."""
 
 IMPORTED = {}
