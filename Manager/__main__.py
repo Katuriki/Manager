@@ -22,7 +22,7 @@ from Manager.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Hello {}, my name is {}!
 
-You know how hard it is sometimes to manage group so here is the solution for you.
+I will Help You To Manage Your Group.I have Lots Of Features Too😉.
 
 My owner is [Abhilash](t.me/Abhilash_1149)
 
