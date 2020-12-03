@@ -20,17 +20,15 @@ from Manager.modules.helper_funcs.chat_status import is_user_admin
 from Manager.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hello {}, my name is {}!
+Hello {}, I Am {}!
 
-I will Help You To Manage Your Group.I have Lots Of Features Too😉.
-
-My owner is [Abhilash](t.me/Abhilash_1149)
+I Am A Bot Made for [Telegeeks](t.me/telegeekscommunity).
 
 Click /help or Help button below to find out more about how to use me to my full potential.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! I Am *{}*.
 Group Management Bot with advanced features. 
 *Main* commands available:
  - /start: start the bot
@@ -47,7 +45,7 @@ Group Management Bot with advanced features.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-MARI_IMG = "https://telegra.ph/file/22b4c5e8347b9c53126aa.png"
+TELEGEEK_IMG = "https://telegra.ph/file/f73f27df54c500cd78478.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate! I'm not accepting any donations right now, still, if needed, drop a thanks to @Abhilash_1149."""
 
