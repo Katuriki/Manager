@@ -136,7 +136,7 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_photo(
-                TELEGEEK_IMG = "https://telegra.ph/file/f73f27df54c500cd78478.jpg",
+                TELEGEEK_IMG,
                 caption=PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), SUPPORT_CHAT),
                 parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
     else:
